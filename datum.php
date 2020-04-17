@@ -12,3 +12,6 @@ Evropski zapis datuma:
 <br>
 Slovenski zapis datuma:
 <?php echo date ('d. ' . 'm. ' . 'Y'); ?>
+<br>
+<hr>
+Danes je <?php echo date ("l, " 'd. ' . 'm. ' . 'Y'); ?>
