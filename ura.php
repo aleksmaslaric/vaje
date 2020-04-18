@@ -10,3 +10,5 @@ Sekunde:
 <?php
   echo 'Ura je: ' . date("H:i:s");
 ?>
+<hr>
+&copy 2020 - <?php echo date("Y"); ?>

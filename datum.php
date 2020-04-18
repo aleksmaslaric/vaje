@@ -24,3 +24,5 @@ Slovenski zapis datuma:
 <br>
 <hr>
 Danes je <?php echo date ("l, " 'd. ' . 'm. ' . 'Y'); ?>
+<hr>
+&copy 2020 - <?php echo date("Y"); ?>
