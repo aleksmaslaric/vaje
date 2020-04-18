@@ -1,6 +1,6 @@
 <!-- UTF-8 trenutno nima supporta na Windowsih, zato se namesto tega vpiše "three letter string code". Za slovenščino tega string code-a nisem našel, zato je spodaj zapisan način, ki je napisan tudi na php.net -->
 <?php
-  setlocale(LC_ALL, 'sl_SI.UTF-8');
+  setlocale(LC_TIME, 'sl_SI.UTF-8');
   echo strftime("%A, %e. %B. %Y");
 ?>
 
